@@ -30,7 +30,7 @@ def add_vectors():
 VECTORS = add_vectors()
 VECTORS = [VECTORS[0], VECTORS[1], VECTORS[2], VECTORS[3]]
 
-# Prints on the shell outpu the map of city with the points to travel
+# Prints on the shell output the map of city with the points to travel
 def make_field():
     for n in range(1, 17, 1):
         for k in range(1, 17, 1):        
